@@ -2,7 +2,13 @@
 <module type="EMPTY_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/points/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/points_and_vectors/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/point_vector/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/points/target" />
+      <excludeFolder url="file://$MODULE_DIR$/points_and_vectors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/point_vector/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
