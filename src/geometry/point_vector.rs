@@ -53,4 +53,20 @@ mod tests {
         assert_eq!(vector.w, 0.0);
     }
 
+    #[test]
+    fn point_new_does_fill_properties() {
+        let point : PointVector = PointVector::point(4.0, -4.0, 3.0);
+        assert_eq!(point.x, 4.0);
+        assert_eq!(point.y, -4.0);
+        assert_eq!(point.z, 3.0);
+    }
+
+    #[test]
+    fn vector_new_does_fill_properties() {
+        let vector: PointVector = PointVector::vector(4.0, -4.0, 3.0);
+        assert_eq!(vector.x, 4.0);
+        assert_eq!(vector.y, -4.0);
+        assert_eq!(vector.z, 3.0);
+    }
+
 }
