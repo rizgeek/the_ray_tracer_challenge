@@ -42,14 +42,15 @@ mod tests {
     }
 
     #[test]
+    fn point_must_have_w_1() {
+        let point: PointVector = PointVector::point(4.0, -4.0, 3.0);
+        assert_eq!(point.w, 1.0);
+    }
+
+    #[test]
     fn vector_must_have_w_0() {
         let vector: PointVector = PointVector::vector(4.0, -4.0, 3.0);
         assert_eq!(vector.w, 0.0);
     }
 
-    #[test]
-    fn point_must_have_w_1() {
-        let point: PointVector = PointVector::vector(4.0, -4.0, 3.0);
-        assert_eq!(point.w, 0.0);
-    }
 }
